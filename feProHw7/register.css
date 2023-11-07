@@ -1,0 +1,62 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+   background-image: url(https://phonoteka.org/uploads/posts/2022-02/1644351579_42-phonoteka-org-p-yuvelirnie-ukrasheniya-fon-46.jpg);
+   font-family: "Open Sans", Arial, sans-serif;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position:top;
+   background-attachment: fixed;
+   box-sizing: border-box;
+}
+.container{
+   width: 100%vh;
+}
+.wrapper{
+   margin-right: 5em;
+   display: flex;
+   justify-content: centr;
+   flex-direction: column;
+   align-items: center;
+  color: silver; 
+  margin-top: 4em;
+  font-size: 1.5em;
+  margin-right: 5em;
+
+}
+h2{
+   font-size: 2em;
+   margin-right: 5em;
+}
+#registerForm{
+margin-top: 1em;
+margin-right: 10em;
+}
+#registerEmail ,#registerPassword{
+   height: 2.5em;
+   width: 80%;
+   border: none;
+   outline: none;
+   border-radius: 30px;
+   color: black;
+   padding: 0 0 0 25px;
+   background: rgba(255,255,255,0.3);
+}
+.button{
+   margin-top: 1em;
+   border: none;
+   border-radius: 30px;
+   font-size: 20px;
+   height: 35px;
+   outline: none;
+   width: 100%;
+   background: rgba(255,255,255,0.3);
+   cursor: pointer;
+   transition: .3s;
+   color:silver;
+}
+.button:hover{
+   box-shadow: 1px 5px 7 1px rgba(0,0,0,0.2);
+}

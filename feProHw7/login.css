@@ -1,0 +1,37 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+   background-image:url(https://img.freepik.com/free-photo/model-demonstrating-earrings-and-ring_7502-7042.jpg?w=740&t=st=1698505318~exp=1698505918~hmac=24bc9b38389c69a07903c4a8c32ed03f2512746cb42e5266c2c107b92909ec02) ;
+   background-size: cover;
+   background-repeat: no-repeat;
+  
+   box-sizing: border-box;
+}
+.container{
+   padding: 5em  4em;
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: column;
+   align-items:first baseline;
+   gap: 2em;
+   font-size: 2em;
+}
+#email, #password{
+  gap: 1em;
+  border-radius: 20px;
+  width: 13rem;
+ height: 2em;
+ background-color: silver;
+}
+
+button{
+   background-color: silver;
+   margin-left: 2em;
+   padding:0  0.5em;
+font-size: 20px;
+border-radius: 10px;
+width: 10em;
+margin-top: 2em;
+}
